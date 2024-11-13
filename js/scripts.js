@@ -12,11 +12,3 @@ schemeSvg.addEventListener("click", (event) => {
 		totalPriceTag.textContent = totalPrice;
 	}
 });
-menuButton.addEventListener("click", ()=> { 
-	menu.classList.toggle("is-open");
-});
-$(".fancybox").fancybox({
-  openEffect  : "fade",
-  closeEffect : "fade",
-  type : "iframe"
-});
